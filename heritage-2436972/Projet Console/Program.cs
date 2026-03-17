@@ -1,7 +1,10 @@
 ﻿using Biblio_Classe;
 namespace Projet_Console
 {
-    internal class Program
+    /// <summary>
+    /// Projet principal
+    /// </summary>
+    public class Program
     {
         static void Main(string[] args)
         {
