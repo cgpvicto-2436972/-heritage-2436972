@@ -32,7 +32,7 @@
             get => _marque;
             private set 
             {
-                if (String.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                     throw new ArgumentException("La marque est null et vide.");
 
                 _marque = value; 
